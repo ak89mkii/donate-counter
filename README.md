@@ -1,7 +1,7 @@
 # Donate Counting Appication
 
 ## Description:
-See Holo-HUD README.md for project details.
+A web-based counter application in order to keep track of donation count tied to product sales.
 
 ## Front_End Link: https://github.com/ak89mkii/holo-hud
 
