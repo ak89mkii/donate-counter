@@ -1,14 +1,15 @@
-import React, { Component } from 'react';
-import 'semantic-ui-css/semantic.min.css'
-import { Segment, Grid, Message} from 'semantic-ui-react'
+import React, { Component, useState } from 'react';
+import Calendar from 'react-calendar';
+import 'semantic-ui-css/semantic.min.css';
+import { Segment, Grid, Message} from 'semantic-ui-react';
 import './App.css';
 // import Hair from '../../img/01.jpg'
 
 class Home extends Component {
-    constructor() {
-        super()
-        this.state={time: new Date()}
-    }
+  constructor() {
+      super()
+      this.state={time: new Date()}
+  }
   
     render() {
         return (
@@ -24,9 +25,15 @@ class Home extends Component {
                     <Grid.Row>
                     <Grid.Column>
                       <h2 className='start'>Start Date</h2>
+                      <div className='value'>
+                        <p>Date Placeholder</p>
+                      </div>
                     </Grid.Column>
                     <Grid.Column>
-                      <h2 className='start'>End Date</h2>                    
+                      <h2 className='start'>End Date</h2>
+                      <div className='value'>
+                        <p>Date Placeholder</p>
+                      </div>                    
                     </Grid.Column>
                     </Grid.Row>
                   </Grid>
