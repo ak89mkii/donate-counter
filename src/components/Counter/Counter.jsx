@@ -3,10 +3,15 @@ import { Icon, Button, Grid } from 'semantic-ui-react'
 import '../../App.css';
 
 class Counter extends Component {
-    constructor() {
-        super()
-        this.state={time: new Date()}
+    constructor(props) {
+        super(props)
+        this.state = {time: new Date(), count: 0}
+        this.countUp = this.countUp.bind(this);
     }
+
+    countUp(event) {
+        this.setState({count: this.state.count + 1});
+      }
 
     currentTime() {
         this.setState({
@@ -18,10 +23,7 @@ class Counter extends Component {
         setInterval(()=>this.currentTime(),1000)
     }
 
-    handleItemClick = (e, { name }) => this.setState({ activeItem: name })
-
     render() {
-        const { activeItem } = this.state
         return (
             <div>
                 <Grid>
@@ -30,10 +32,13 @@ class Counter extends Component {
                             <p>{this.state.time.toLocaleDateString()}</p>
                         </Grid.Column>
                         <Grid.Column>
-                            <p>[0]</p>
+                            <p>[ {this.state.count} ]</p>
                         </Grid.Column>
                         <Grid.Column>
-                            <Button icon>
+                            <Button 
+                                icon
+                                onClick={this.countUp}
+                            >
                                 <Icon name='plus' size='large' />
                             </Button>
                         </Grid.Column>
