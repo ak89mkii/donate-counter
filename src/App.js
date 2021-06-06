@@ -30,13 +30,13 @@ class Home extends Component {
             <Grid.Row>
               <Grid.Column>
                 <h2 className='label'>Start Date</h2>
-                <div className='value'>
+                <div className='calendar2'>
                   <Data />
                 </div> 
               </Grid.Column>
               <Grid.Column>
                 <h2 className='label'>End Date</h2>
-                <div className='value'>
+                <div className='calendar2'>
                   <Data />
                 </div>                    
               </Grid.Column>

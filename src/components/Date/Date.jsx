@@ -8,7 +8,7 @@ function Data() {
   return (
     <div>
       <DatePicker
-        className='number'
+        className='calendar'
         onChange={onChange}
         value={value}
       />

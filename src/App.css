@@ -3,9 +3,9 @@
   font-family: 'Roboto', sans-serif;
   font-size: 60px;
   font-weight:bold;
-  background-color: rgb(69, 78, 96);
-  color: rgb(255, 243, 11);
-
+  background-color: rgb(255, 186, 90);
+  color: white;
+  padding: 20px;
 }
 
 .label {
@@ -14,8 +14,6 @@
   font-size: 40px;
   background-color: cornflowerblue;
   color: white;
-
-  
 }
 
 .number {
@@ -24,7 +22,27 @@
   font-size: 40px;
   background-color: cornflowerblue;
   color: white;
-  
+}
+
+.calendar {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  background-color: cornflowerblue;
+}
+
+.calendar2 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: cornflowerblue;
+  width: auto;
+  margin: auto;
+  width: 300px;
 }
 
 .value {
