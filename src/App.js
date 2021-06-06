@@ -20,22 +20,30 @@ class Home extends Component {
           <Grid divided='vertically'>
             <Grid.Column>
               <h1 className='header'>Donation Tracker Application</h1>
-              <h2 className='start'>Total Donations</h2>
+              <h2 className='number'>Total Donations</h2>
               <div className='value'>
-                <p>Date Placeholder</p>
+                <p className='number'>$100</p>
               </div>    
             </Grid.Column>
           </Grid>
           <Grid relaxed='very' columns={2} divided>
             <Grid.Row>
               <Grid.Column>
-                <h2 className='start'>Start Date</h2>
+                <h2 className='label'>Start Date</h2>
+                <div className='value'>
+                  <p className='number'></p>
+                </div> 
+                <br></br>
                 <div className='value'>
                   <Data />
                 </div>
               </Grid.Column>
               <Grid.Column>
-                <h2 className='start'>End Date</h2>
+                <h2 className='label'>End Date</h2>
+                <div className='value'>
+                  <p className='number'></p>
+                </div>
+                <br></br>
                 <div className='value'>
                   <Data />
                 </div>                    
