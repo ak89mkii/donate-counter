@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import 'semantic-ui-css/semantic.min.css';
-import { Segment, Grid, Message} from 'semantic-ui-react';
+import { Segment, Grid, Input, Label} from 'semantic-ui-react';
 import './App.css';
 import Data from './components/Date/Date.jsx'
 import Total from './components/Total/Total.jsx'
@@ -21,9 +21,12 @@ class Home extends Component {
             <Grid.Column>
               <h1 className='header'>Donation Tracker Application</h1>
               <h2 className='number'>Total Donations</h2>
-              <div className='calendar2'>
-                {/* <input className='calendar'></input> */}
-                <p className='number'>${count}</p>
+              <div className='amount1'>
+                <Input className='amount' labelPosition='right' type='text' placeholder='Amount'>
+                  <Label basic>$</Label>
+                  <input />
+                  <Label>.00</Label>
+                </Input>
               </div>    
             </Grid.Column>
           </Grid>

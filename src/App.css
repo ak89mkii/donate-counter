@@ -45,6 +45,24 @@
   width: 300px;
 }
 
+.amount {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: cornflowerblue;
+  width: 300px;
+  margin: auto;
+}
+
+.amount1 {
+  text-align: center;
+  margin: auto;
+}
+
 .value {
   text-align: center;
   font-family: 'Roboto', sans-serif;
