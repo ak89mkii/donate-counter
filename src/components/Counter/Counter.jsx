@@ -33,12 +33,12 @@ class Counter extends Component {
                             <p>[0]</p>
                         </Grid.Column>
                         <Grid.Column>
-                            <Button inverted icon>
+                            <Button icon>
                                 <Icon name='plus' size='large' />
                             </Button>
                         </Grid.Column>
                         <Grid.Column>
-                            <Button inverted icon>
+                            <Button icon>
                                 <Icon name='minus' size='large' />
                             </Button>
                         </Grid.Column>

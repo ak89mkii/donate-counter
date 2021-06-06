@@ -52,6 +52,31 @@ class Home extends Component {
         <div className='red'>
           <Counter />
         </div>
+        <br></br>
+        <br></br>
+        <div className='yellow'>
+          <Counter />
+        </div>
+        <br></br>
+        <br></br>
+        <div className='green'>
+          <Counter />
+        </div>
+        <br></br>
+        <br></br>
+        <div className='blue'>
+          <Counter />
+        </div>
+        <br></br>
+        <br></br>
+        <div className='white'>
+          <Counter />
+        </div>
+        <br></br>
+        <br></br>
+        <div className='grey'>
+          <Counter />
+        </div>
       </div>
     )
   }

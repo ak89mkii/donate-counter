@@ -88,3 +88,78 @@
   width: 600px;
   padding: 20px;
 }
+
+.yellow {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  background-color: rgb(203, 201, 103);
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: rgb(203, 201, 103);
+  width: auto;
+  margin: auto;
+  width: 600px;
+  padding: 20px;
+}
+
+.green {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  background-color: rgb(54, 185, 108);
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: rgb(54, 185, 108);
+  width: auto;
+  margin: auto;
+  width: 600px;
+  padding: 20px;
+}
+
+.blue {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  background-color: rgb(55, 108, 193);
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: rgb(55, 108, 193);
+  width: auto;
+  margin: auto;
+  width: 600px;
+  padding: 20px;
+}
+
+.white {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  background-color: white;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: black;
+  width: auto;
+  margin: auto;
+  width: 600px;
+  padding: 20px;
+}
+
+.grey {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  background-color: grey;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: grey;
+  width: auto;
+  margin: auto;
+  width: 600px;
+  padding: 20px;
+}
