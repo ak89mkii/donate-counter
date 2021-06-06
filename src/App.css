@@ -153,13 +153,27 @@
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
-  background-color: grey;
+  background-color: darkgrey;
   border-radius: 10px;
   border-style: solid;
   border-width: 10px;
-  border-color: grey;
+  border-color: darkgrey;
   width: auto;
   margin: auto;
   width: 600px;
   padding: 20px;
+}
+
+.total {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: grey;
+  background-color: grey;
+  color: white;
+  width: auto;
+  margin: auto;
+  width: 200px;
 }

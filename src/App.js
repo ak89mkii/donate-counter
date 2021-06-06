@@ -3,13 +3,13 @@ import 'semantic-ui-css/semantic.min.css';
 import { Segment, Grid, Message} from 'semantic-ui-react';
 import './App.css';
 import Data from './components/Date/Date.jsx'
-// import Footer from './components/Footer/Footer.jsx'
+import Total from './components/Total/Total.jsx'
 import Counter from './components/Counter/Counter.jsx'
 // import Hair from '../../img/01.jpg'
 
 class Home extends Component {
   state = {
-    activeItem: undefined
+    count: undefined
 }
   
   render() {
@@ -21,7 +21,7 @@ class Home extends Component {
               <h1 className='header'>Donation Tracker Application</h1>
               <h2 className='number'>Total Donations</h2>
               <div className='value'>
-                <p className='number'>$100</p>
+                <p></p>
               </div>    
             </Grid.Column>
           </Grid>

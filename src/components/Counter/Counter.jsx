@@ -1,17 +1,23 @@
 import React, { Component } from 'react';
 import { Icon, Button, Grid } from 'semantic-ui-react'
 import '../../App.css';
+import Total from '../Total/Total';
 
 class Counter extends Component {
     constructor(props) {
         super(props)
         this.state = {time: new Date(), count: 0}
         this.countUp = this.countUp.bind(this);
+        this.countDown = this.countDown.bind(this);
     }
 
     countUp(event) {
         this.setState({count: this.state.count + 1});
-      }
+    }
+
+    countDown(event) {
+        this.setState({count: this.state.count - 1});
+    }
 
     currentTime() {
         this.setState({
@@ -26,13 +32,13 @@ class Counter extends Component {
     render() {
         return (
             <div>
+                <Total
+                    countUp={this.state.count}
+                />
                 <Grid>
-                    <Grid.Row columns={4}>
+                    <Grid.Row columns={3}>
                         <Grid.Column>
                             <p>{this.state.time.toLocaleDateString()}</p>
-                        </Grid.Column>
-                        <Grid.Column>
-                            <p>[ {this.state.count} ]</p>
                         </Grid.Column>
                         <Grid.Column>
                             <Button 
@@ -43,7 +49,10 @@ class Counter extends Component {
                             </Button>
                         </Grid.Column>
                         <Grid.Column>
-                            <Button icon>
+                            <Button 
+                                icon
+                                onClick={this.countDown}
+                            >
                                 <Icon name='minus' size='large' />
                             </Button>
                         </Grid.Column>
