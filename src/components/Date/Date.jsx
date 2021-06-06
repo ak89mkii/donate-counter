@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Calendar from 'react-calendar';
+import DatePicker from 'react-date-picker';
 import 'react-calendar/dist/Calendar.css';
 
 function Data() {
@@ -7,7 +7,8 @@ function Data() {
 
   return (
     <div>
-      <Calendar
+      <DatePicker
+        className='number'
         onChange={onChange}
         value={value}
       />

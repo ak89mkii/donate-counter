@@ -31,19 +31,11 @@ class Home extends Component {
               <Grid.Column>
                 <h2 className='label'>Start Date</h2>
                 <div className='value'>
-                  <p className='number'></p>
-                </div> 
-                <br></br>
-                <div className='value'>
                   <Data />
-                </div>
+                </div> 
               </Grid.Column>
               <Grid.Column>
                 <h2 className='label'>End Date</h2>
-                <div className='value'>
-                  <p className='number'></p>
-                </div>
-                <br></br>
                 <div className='value'>
                   <Data />
                 </div>                    
