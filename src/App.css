@@ -57,3 +57,34 @@
   width: 300px;
   
 }
+
+.black {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: black;
+  width: auto;
+  margin: auto;
+  width: 600px;
+  padding: 20px;
+}
+
+.red {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  background-color: rgb(203, 103, 103);
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: rgb(203, 103, 103);
+  width: auto;
+  margin: auto;
+  width: 600px;
+  padding: 20px;
+}

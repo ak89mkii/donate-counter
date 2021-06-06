@@ -4,4 +4,4 @@
 A web-based counter application in order to keep track of donation count tied to product sales.
 
 ## Other References:
-// https://www.npmjs.com/package/react-calendar
+// https://www.npmjs.com/package/react-date-picker

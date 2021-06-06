@@ -4,14 +4,13 @@ import { Segment, Grid, Message} from 'semantic-ui-react';
 import './App.css';
 import Data from './components/Date/Date.jsx'
 // import Footer from './components/Footer/Footer.jsx'
-// import Menu from './components/Menu/Menu.jsx'
+import Counter from './components/Counter/Counter.jsx'
 // import Hair from '../../img/01.jpg'
 
 class Home extends Component {
-  constructor() {
-    super()
-    this.state={time: new Date()}
-  }
+  state = {
+    activeItem: undefined
+}
   
   render() {
     return (
@@ -43,6 +42,16 @@ class Home extends Component {
             </Grid.Row>
           </Grid>
         </Segment>
+        <br></br>
+        <br></br>
+        <div className='black'>
+          <Counter />
+        </div>
+        <br></br>
+        <br></br>
+        <div className='red'>
+          <Counter />
+        </div>
       </div>
     )
   }
