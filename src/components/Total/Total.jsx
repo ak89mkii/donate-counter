@@ -5,7 +5,7 @@ import '../../App.css';
 const Total = (props) => {
     return (
         <div>
-            <p className='total'>{props.countUp}</p>
+            <p className='total'>${props.countUp}</p>
             <br></br>
         </div>
     )

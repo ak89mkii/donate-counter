@@ -9,10 +9,11 @@ import Counter from './components/Counter/Counter.jsx'
 
 class Home extends Component {
   state = {
-    count: undefined
+    count: 0
 }
   
   render() {
+    const {count} = this.state
     return (
       <div>
         <Segment>
@@ -20,8 +21,9 @@ class Home extends Component {
             <Grid.Column>
               <h1 className='header'>Donation Tracker Application</h1>
               <h2 className='number'>Total Donations</h2>
-              <div className='value'>
-                <p></p>
+              <div className='calendar2'>
+                {/* <input className='calendar'></input> */}
+                <p className='number'>${count}</p>
               </div>    
             </Grid.Column>
           </Grid>
