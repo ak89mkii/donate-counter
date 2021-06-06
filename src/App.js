@@ -1,8 +1,10 @@
-import React, { Component, useState } from 'react';
-import Calendar from 'react-calendar';
+import React, { Component } from 'react';
 import 'semantic-ui-css/semantic.min.css';
 import { Segment, Grid, Message} from 'semantic-ui-react';
 import './App.css';
+import Data from './components/Date/Date.jsx'
+// import Footer from './components/Footer/Footer.jsx'
+// import Menu from './components/Menu/Menu.jsx'
 // import Hair from '../../img/01.jpg'
 
 class Home extends Component {
@@ -29,13 +31,13 @@ class Home extends Component {
               <Grid.Column>
                 <h2 className='start'>Start Date</h2>
                 <div className='value'>
-                  <p>Date Placeholder</p>
+                  <Data />
                 </div>
               </Grid.Column>
               <Grid.Column>
                 <h2 className='start'>End Date</h2>
                 <div className='value'>
-                  <p>Date Placeholder</p>
+                  <Data />
                 </div>                    
               </Grid.Column>
             </Grid.Row>
