@@ -123,15 +123,15 @@ class Count extends Component {
                         </Grid.Column>
                     </Grid.Row>
 
-                    {/* Red Row. */}
+                    {/* Yellow Row. */}
                     <Grid.Row columns={3}>
                         <Grid.Column>
-                            <p className='red'>${this.state.red}</p>
+                            <p className='yellow'>${this.state.yellow}</p>
                         </Grid.Column>
                         <Grid.Column>
                             <Button 
                                 icon
-                                onClick={this.redTotal}
+                                onClick={this.yellowTotal}
                             >
                                 <Icon name='plus' size='large' />
                             </Button>
