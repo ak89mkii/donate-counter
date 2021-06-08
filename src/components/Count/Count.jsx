@@ -62,10 +62,60 @@ class Count extends Component {
             white: this.state.white + 1,
         })
     }
+
     greyTotal = () => {
         this.setState({
             total: this.state.total + 2,
             grey: this.state.grey + 2,
+        })
+    }
+
+    blackMinus = () => {
+        this.setState({
+            total: this.state.total - 1,
+            black: this.state.black - 1,
+        })
+    }
+
+   redMinus = () => {
+        this.setState({
+            total: this.state.total - 1,
+            red: this.state.red - 1,
+        })
+    }
+
+    yellowMinus = () => {
+        this.setState({
+            total: this.state.total - 1,
+            yellow: this.state.yellow - 1,
+        })
+    }
+
+    greenMinus = () => {
+        this.setState({
+            total: this.state.total - 1,
+            green: this.state.gregreenen - 1,
+        })
+    }
+
+    blueMinus = () => {
+        this.setState({
+            total: this.state.total - 1,
+            blue: this.state.blue - 1,
+        })
+    }
+
+    whiteMinus = () => {
+        this.setState({
+            total: this.state.total - 1,
+            white: this.state.white - 1,
+        })
+    }
+
+    greyMinus = () => {
+        this.setState({
+            total: this.state.total - 1,
+            grey: this.state.grey - 1,
         })
     }
 
@@ -93,7 +143,7 @@ class Count extends Component {
                         <Grid.Column>
                             <Button 
                                 icon
-                                onClick={this.countDown}
+                                onClick={this.blackMinus}
                             >
                                 <Icon name='minus' size='large' />
                             </Button>
@@ -116,7 +166,7 @@ class Count extends Component {
                         <Grid.Column>
                             <Button 
                                 icon
-                                onClick={this.countDown}
+                                onClick={this.redMinus}
                             >
                                 <Icon name='minus' size='large' />
                             </Button>
@@ -139,7 +189,7 @@ class Count extends Component {
                         <Grid.Column>
                             <Button 
                                 icon
-                                onClick={this.countDown}
+                                onClick={this.yellowMinus}
                             >
                                 <Icon name='minus' size='large' />
                             </Button>
@@ -162,7 +212,7 @@ class Count extends Component {
                         <Grid.Column>
                             <Button 
                                 icon
-                                onClick={this.countDown}
+                                onClick={this.greenMinus}
                             >
                                 <Icon name='minus' size='large' />
                             </Button>
@@ -185,7 +235,7 @@ class Count extends Component {
                         <Grid.Column>
                             <Button 
                                 icon
-                                onClick={this.countDown}
+                                onClick={this.blueMinus}
                             >
                                 <Icon name='minus' size='large' />
                             </Button>
@@ -208,7 +258,7 @@ class Count extends Component {
                         <Grid.Column>
                             <Button 
                                 icon
-                                onClick={this.countDown}
+                                onClick={this.whiteMinus}
                             >
                                 <Icon name='minus' size='large' />
                             </Button>
@@ -231,7 +281,7 @@ class Count extends Component {
                         <Grid.Column>
                             <Button 
                                 icon
-                                onClick={this.countDown}
+                                onClick={this.greyMinus}
                             >
                                 <Icon name='minus' size='large' />
                             </Button>
