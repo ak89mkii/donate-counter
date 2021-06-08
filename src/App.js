@@ -4,8 +4,6 @@ import { Segment, Grid, Input, Label} from 'semantic-ui-react';
 import './App.css';
 import Data from './components/Date/Date.jsx'
 import Count from './components/Count/Count.jsx'
-import Counter from './components/Counter/Counter.jsx'
-// import Hair from '../../img/01.jpg'
 
 class Home extends Component {
   state = {
