@@ -33,7 +33,7 @@ class Counter extends Component {
         return (
             <div>
                 <Total
-                    countUp={this.state.count}
+                    count={this.state.count}
                 />
                 <Grid>
                     <Grid.Row columns={3}>
