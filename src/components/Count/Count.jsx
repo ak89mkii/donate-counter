@@ -94,7 +94,7 @@ class Count extends Component {
     greenMinus = () => {
         this.setState({
             total: this.state.total - 1,
-            green: this.state.gregreenen - 1,
+            green: this.state.green - 1,
         })
     }
 
@@ -115,7 +115,7 @@ class Count extends Component {
     greyMinus = () => {
         this.setState({
             total: this.state.total - 1,
-            grey: this.state.grey - 1,
+            grey: this.state.grey - 2,
         })
     }
 
